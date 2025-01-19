@@ -2,7 +2,7 @@ name: Build and Deploy Code
 on: [push,pull_request]
 jobs:
   job1:
-    runs-on:
+    runs-on: ubuntu-20.04
     steps:
       - name: pulling git repo
         uses: actions/checkout@v2
